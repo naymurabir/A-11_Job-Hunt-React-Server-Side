@@ -33,9 +33,26 @@ async function run() {
         const jobsCollection = client.db('JobHuntDB').collection('jobs')
 
         //Jobs related APIs
+        //POST
+        app.post('/jobs', async (req, res) => {
+            const newJob = req.body
+            const result = await jobsCollection.insertOne(newJob)
+            res.send(result)
+        })
+
+
+        //GET
         app.get('/jobs', async (req, res) => {
             const cursor = jobsCollection.find()
             const result = await cursor.toArray()
+            res.send(result)
+        })
+
+        //GET single data 
+        app.get('/job/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: new ObjectId(id) }
+            const result = await jobsCollection.findOne(query)
             res.send(result)
         })
 

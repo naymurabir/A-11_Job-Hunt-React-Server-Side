@@ -1,66 +1,74 @@
 [
     {
-        "author_name": "Abir khan",
-        "job_title": "On Site Job",
+        "name": "Zubair Islam",
+        "job_title": "Junior Software Engineer",
+        "job_category": "On Site Job",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
-        "salary": "60000",
-        "applicants_number": "0001"
+        "salary": "50000",
+        "applicants_number": "1"
     },
     {
-        "author_name": "Nahian Islam",
-        "job_title": "On Site Job",
+        "name": "Rayhan Khan",
+        "job_category": "On Site Job",
+        "job_title": "UI/UX Designer",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-12",
+        "salary": "45000",
+        "applicants_number": "2"
+    },
+    {
+        "name": "Abdullah Al Mamun",
+        "job_title": "Video Editor",
+        "job_category": "Remote Job",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
-        "salary": "70000",
-        "applicants_number": "0002"
+        "salary": "42000",
+        "applicants_number": "3"
     },
     {
-        "author_name": "Saokot Ali",
-        "job_title": "Remote Job",
+        "name": "Rabby Hasan",
+        "job_title": "Web Development",
+        "job_category": "Remote Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-11",
+        "salary": "25000",
+        "applicants_number": "4"
+    },
+    {
+        "name": "Shihab Ali",
+        "job_category": "Hybrid",
+        "job_title": "Sales Executive",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-08",
+        "salary": "40000",
+        "applicants_number": "5"
+    },
+    {
+        "name": "Rubayat Zaman",
+        "job_category": "Hybrid",
+        "job_title": "Sales Engineer",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
-        "salary": "90000",
-        "applicants_number": "0003"
+        "salary": "45000",
+        "applicants_number": "6"
     },
     {
-        "author_name": "Ali Hasan",
-        "job_title": "Remote Job",
-        "posting_date": "2023-11-05",
-        "application_deadline": "2023-11-10",
-        "salary": "30000",
-        "applicants_number": "0004"
-    },
-    {
-        "author_name": "Forhad Islam",
-        "job_title": "Hybrid",
-        "posting_date": "2023-11-05",
-        "application_deadline": "2023-11-10",
-        "salary": "65000",
-        "applicants_number": "0005"
-    },
-    {
-        "author_name": "Tuhin Islam",
-        "job_title": "Hybrid",
-        "posting_date": "2023-11-05",
-        "application_deadline": "2023-11-10",
-        "salary": "60000",
-        "applicants_number": "0006"
-    },
-    {
-        "author_name": "Setu Kormokar",
-        "job_title": "Part Time",
+        "name": "Naymur Rahman",
+        "job_category": "Part Time",
+        "job_title": "Inventory Executive",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
         "salary": "38000",
-        "applicants_number": "0007"
+        "applicants_number": "7"
     },
     {
-        "author_name": "Kaysar Ahmed",
-        "job_title": "Part Time",
+        "name": "Faysal",
+        "job_category": "Part Time",
+        "job_title": "Production Manager",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
-        "salary": "90000",
-        "applicants_number": "0008"
+        "salary": "35000",
+        "applicants_number": "8"
     }
 ]
