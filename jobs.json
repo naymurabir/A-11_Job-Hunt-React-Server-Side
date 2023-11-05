@@ -1,0 +1,66 @@
+[
+    {
+        "author_name": "Abir khan",
+        "job_title": "On Site Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "60000",
+        "applicants_number": "0001"
+    },
+    {
+        "author_name": "Nahian Islam",
+        "job_title": "On Site Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "70000",
+        "applicants_number": "0002"
+    },
+    {
+        "author_name": "Saokot Ali",
+        "job_title": "Remote Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "90000",
+        "applicants_number": "0003"
+    },
+    {
+        "author_name": "Ali Hasan",
+        "job_title": "Remote Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "30000",
+        "applicants_number": "0004"
+    },
+    {
+        "author_name": "Forhad Islam",
+        "job_title": "Hybrid",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "65000",
+        "applicants_number": "0005"
+    },
+    {
+        "author_name": "Tuhin Islam",
+        "job_title": "Hybrid",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "60000",
+        "applicants_number": "0006"
+    },
+    {
+        "author_name": "Setu Kormokar",
+        "job_title": "Part Time",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "38000",
+        "applicants_number": "0007"
+    },
+    {
+        "author_name": "Kaysar Ahmed",
+        "job_title": "Part Time",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "90000",
+        "applicants_number": "0008"
+    }
+]
