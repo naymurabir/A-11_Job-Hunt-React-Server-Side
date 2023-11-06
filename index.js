@@ -42,11 +42,20 @@ async function run() {
             res.send(result)
         })
 
-
         //GET
         app.get('/jobs', async (req, res) => {
             const cursor = jobsCollection.find()
             const result = await cursor.toArray()
+            res.send(result)
+        })
+
+        //My Jobs Related APIs
+        app.get('/myJobs', async (req, res) => {
+            let query = {}
+            if (req.query?.email) {
+                query = { email: req.query?.email }
+            }
+            const result = await jobsCollection.find(query).toArray()
             res.send(result)
         })
 

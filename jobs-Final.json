@@ -1,14 +1,15 @@
 [
     {
         "name": "Zubair Islam",
-        "job_title": "Junior Software Engineer",
+        "job_title": "Software Engineer",
         "job_category": "On Site Job",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
         "salary": "50000",
-        "applicants_number": "1",
+        "applicants_number": "0",
         "description": "We are looking for a motivated Junior Software Engineer to join our on-site team. If you're passionate about software development and eager to learn, this is a great opportunity for you.",
-        "image": "https://i.ibb.co/BGZK43x/On-Site-Job-1.jpg"
+        "image": "https://i.ibb.co/BGZK43x/On-Site-Job-1.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Rayhan Khan",
@@ -17,64 +18,70 @@
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-12",
         "salary": "45000",
-        "applicants_number": "2",
+        "applicants_number": "0",
         "description": "Join our on-site team as a UI/UX Designer and help us create amazing user experiences. If you have a strong eye for design and are skilled in user interface and user experience, we want to hear from you.",
-        "image": "https://i.ibb.co/YPMfv5M/On-Site-Job-2.jpg"
+        "image": "https://i.ibb.co/YPMfv5M/On-Site-Job-2.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Abdullah Al Mamun",
-        "job_title": "Video Editor",
+        "job_title": "Graphics Designer",
         "job_category": "Remote Job",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
         "salary": "42000",
-        "applicants_number": "3",
+        "applicants_number": "0",
         "description": "We are seeking a talented Video Editor to work remotely on our projects. If you have a creative flair for video editing and can work independently, apply now to be a part of our team.",
-        "image": "https://i.ibb.co/W0TKG2n/Remote-1.jpg"
+        "image": "https://i.ibb.co/W0TKG2n/Remote-1.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Rabby Hasan",
-        "job_title": "Web Development",
+        "job_title": "Web Developer",
         "job_category": "Remote Job",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-11",
         "salary": "25000",
-        "applicants_number": "4",
+        "applicants_number": "0",
         "description": "Join our remote team as a Web Developer and contribute to exciting web development projects. We are looking for individuals with strong web development skills who can work from anywhere.",
-        "image": "https://i.ibb.co/hWkLjVh/Remote-2.jpg"
+        "image": "https://i.ibb.co/hWkLjVh/Remote-2.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Shihab Ali",
         "job_category": "Hybrid",
-        "job_title": "Sales Executive",
+        "job_title": "Video Editor",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-08",
         "salary": "40000",
-        "applicants_number": "5",
+        "applicants_number": "0",
         "description": "We are hiring a Sales Executive to work in a hybrid role, combining on-site and remote work. If you are a dynamic and results-driven professional with sales experience, join us in achieving our sales goals.",
-        "image": "https://i.ibb.co/N7BYddD/Hybrid-1.jpg"
+        "image": "https://i.ibb.co/N7BYddD/Hybrid-1.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Rubayat Zaman",
         "job_category": "Hybrid",
-        "job_title": "Sales Engineer",
+        "job_title": "Sales Executive",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
         "salary": "45000",
-        "applicants_number": "6",
+        "applicants_number": "0",
         "description": "Become a part of our team as a Sales Engineer in a hybrid role. If you have technical knowledge and strong communication skills, you can excel in this position and drive sales growth.",
-        "image": "https://i.ibb.co/PjBpDbw/Hybrid-2.jpg"
+        "image": "https://i.ibb.co/PjBpDbw/Hybrid-2.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Naymur Rahman",
         "job_category": "Part Time",
-        "job_title": "Inventory Executive",
+        "job_title": "Human Resource",
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
         "salary": "38000",
-        "applicants_number": "7",
+        "applicants_number": "0",
         "description": "We are hiring a part-time Inventory Executive to manage our inventory efficiently. If you have organizational skills and can work part-time, this role is a great fit for you.",
-        "image": "https://i.ibb.co/S3GTYhM/Part-Time-1.jpg"
+        "image": "https://i.ibb.co/S3GTYhM/Part-Time-1.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
     },
     {
         "name": "Faysal",
@@ -83,8 +90,20 @@
         "posting_date": "2023-11-05",
         "application_deadline": "2023-11-10",
         "salary": "35000",
-        "applicants_number": "8",
+        "applicants_number": "0",
         "description": "Join us as a part-time Production Manager and oversee production operations. If you have experience in production management and can work part-time, we want to hear from you.",
-        "image": "https://i.ibb.co/pWrknXc/Part-Time-2.jpg"
+        "image": "https://i.ibb.co/pWrknXc/Part-Time-2.jpg",
+        "email": "naymurrahman.abir1@gmail.com"
+    },
+    {
+        "name": "Naymur Rahman Abir",
+        "job_category": "On Site Job",
+        "image": "https://i.ibb.co/BGZK43x/On-Site-Job-1.jpg",
+        "salary": "10000",
+        "job_title": "UI/UX Designer",
+        "applicants_number": "0",
+        "posting_date": "11/06/2023",
+        "application_deadline": "06/11/2023",
+        "description": "We are seeking a talented UI/UX developer to join our team. The ideal candidate will be responsible for creating intuitive and visually appealing user interfaces and user experiences"
     }
 ]
