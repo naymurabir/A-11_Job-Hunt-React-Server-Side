@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Zubair Islam",
+        "job_title": "Junior Software Engineer",
+        "job_category": "On Site Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "50000",
+        "applicants_number": "1",
+        "description": "We are looking for a motivated Junior Software Engineer to join our on-site team. If you're passionate about software development and eager to learn, this is a great opportunity for you.",
+        "image": "https://i.ibb.co/BGZK43x/On-Site-Job-1.jpg"
+    },
+    {
+        "name": "Rayhan Khan",
+        "job_category": "On Site Job",
+        "job_title": "UI/UX Designer",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-12",
+        "salary": "45000",
+        "applicants_number": "2",
+        "description": "Join our on-site team as a UI/UX Designer and help us create amazing user experiences. If you have a strong eye for design and are skilled in user interface and user experience, we want to hear from you.",
+        "image": "https://i.ibb.co/YPMfv5M/On-Site-Job-2.jpg"
+    },
+    {
+        "name": "Abdullah Al Mamun",
+        "job_title": "Video Editor",
+        "job_category": "Remote Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "42000",
+        "applicants_number": "3",
+        "description": "We are seeking a talented Video Editor to work remotely on our projects. If you have a creative flair for video editing and can work independently, apply now to be a part of our team.",
+        "image": "https://i.ibb.co/W0TKG2n/Remote-1.jpg"
+    },
+    {
+        "name": "Rabby Hasan",
+        "job_title": "Web Development",
+        "job_category": "Remote Job",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-11",
+        "salary": "25000",
+        "applicants_number": "4",
+        "description": "Join our remote team as a Web Developer and contribute to exciting web development projects. We are looking for individuals with strong web development skills who can work from anywhere.",
+        "image": "https://i.ibb.co/hWkLjVh/Remote-2.jpg"
+    },
+    {
+        "name": "Shihab Ali",
+        "job_category": "Hybrid",
+        "job_title": "Sales Executive",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-08",
+        "salary": "40000",
+        "applicants_number": "5",
+        "description": "We are hiring a Sales Executive to work in a hybrid role, combining on-site and remote work. If you are a dynamic and results-driven professional with sales experience, join us in achieving our sales goals.",
+        "image": "https://i.ibb.co/N7BYddD/Hybrid-1.jpg"
+    },
+    {
+        "name": "Rubayat Zaman",
+        "job_category": "Hybrid",
+        "job_title": "Sales Engineer",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "45000",
+        "applicants_number": "6",
+        "description": "Become a part of our team as a Sales Engineer in a hybrid role. If you have technical knowledge and strong communication skills, you can excel in this position and drive sales growth.",
+        "image": "https://i.ibb.co/PjBpDbw/Hybrid-2.jpg"
+    },
+    {
+        "name": "Naymur Rahman",
+        "job_category": "Part Time",
+        "job_title": "Inventory Executive",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "38000",
+        "applicants_number": "7",
+        "description": "We are hiring a part-time Inventory Executive to manage our inventory efficiently. If you have organizational skills and can work part-time, this role is a great fit for you.",
+        "image": "https://i.ibb.co/S3GTYhM/Part-Time-1.jpg"
+    },
+    {
+        "name": "Faysal",
+        "job_category": "Part Time",
+        "job_title": "Production Manager",
+        "posting_date": "2023-11-05",
+        "application_deadline": "2023-11-10",
+        "salary": "35000",
+        "applicants_number": "8",
+        "description": "Join us as a part-time Production Manager and oversee production operations. If you have experience in production management and can work part-time, we want to hear from you.",
+        "image": "https://i.ibb.co/pWrknXc/Part-Time-2.jpg"
+    }
+]
