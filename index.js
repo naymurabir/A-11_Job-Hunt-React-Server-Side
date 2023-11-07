@@ -50,12 +50,45 @@ async function run() {
         })
 
         //My Jobs Related APIs
+        //GET Job
         app.get('/myJobs', async (req, res) => {
             let query = {}
             if (req.query?.email) {
                 query = { email: req.query?.email }
             }
             const result = await jobsCollection.find(query).toArray()
+            res.send(result)
+        })
+
+        //UPDATE Job
+        app.put('/myJobs/:id', async (req, res) => {
+            const id = req.params.id;
+            const updateJob = req.body
+            console.log(updateJob)
+            const filter = { _id: new ObjectId(id) }
+            const options = { upsert: true }
+            const updateDoc = {
+                $set: {
+                    name: updateJob.name,
+                    image: updateJob.image,
+                    job_title: updateJob.job_title,
+                    job_category: updateJob.job_category,
+                    salary: updateJob.salary,
+                    description: updateJob.description,
+                    applicants_number: updateJob.applicants_number,
+                    posting_date: updateJob.posting_date,
+                    application_deadline: updateJob.application_deadline
+                }
+            }
+            const result = await jobsCollection.updateOne(filter, updateDoc, options)
+            res.send(result)
+        })
+
+        // DELETE Job
+        app.delete('/myJobs/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: new ObjectId(id) }
+            const result = await jobsCollection.deleteOne(query)
             res.send(result)
         })
 
