@@ -13,7 +13,6 @@ app.use(express.json())
 
 
 //Database
-
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.cgjyfgp.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -101,9 +100,20 @@ async function run() {
         })
 
         // Applied Jobs APIs
+        //POST Applied Job
         app.post('/jobApply', async (req, res) => {
             const newJobApply = req.body
             const result = await jobsAppliedCollection.insertOne(newJobApply)
+            res.send(result)
+        })
+
+        //GET Applied Job based on email
+        app.get('/jobApply', async (req, res) => {
+            let query = {}
+            if (req.query?.email) {
+                query = { applyEmail: req.query?.email }
+            }
+            const result = await jobsAppliedCollection.find(query).toArray()
             res.send(result)
         })
 
