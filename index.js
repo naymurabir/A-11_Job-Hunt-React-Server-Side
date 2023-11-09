@@ -104,6 +104,21 @@ async function run() {
             res.send(result)
         })
 
+        // Increment related APIs
+        app.patch('/updateApplicants/:id', async (req, res) => {
+            const { id } = req.params;
+            const query = { _id: new ObjectId(id) }
+            const job = await jobsCollection.findOne(query);
+
+            if (job) {
+                const result = await jobsCollection.updateOne(query, {
+                    $inc: { applicants_number: 1 },
+                });
+                res.send(result);
+            }
+
+        });
+
         //My Jobs Related APIs
         //GET Job
         app.get('/myJobs', verifyToken, async (req, res) => {
@@ -195,7 +210,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send("The Job Hunt server is running...")
+    res.send("The Job Hunt server is running successfully...")
 })
 
 app.listen(port, () => {
