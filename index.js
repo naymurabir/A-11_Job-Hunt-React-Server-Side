@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000
 
 //Middleware 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://job-hunt-react-project.web.app', 'https://job-hunt-react-project.firebaseapp.com'],
+    origin: ['http://localhost:5173', 'https://job-hunt-react-project.web.app', 'https://job-hunt-react-project.firebaseapp.com', 'https://magical-lamp-test.surge.sh'],
     credentials: true
 }))
 app.use(express.json())
